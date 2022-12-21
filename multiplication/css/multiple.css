@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+button:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2);
+}
+.style {
+  border-radius: 50px;
+  top: 50%;
+  bottom: 50%;
+}
+div {
+  text-align: center;
+}

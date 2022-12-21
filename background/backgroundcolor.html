@@ -1,0 +1,33 @@
+<!--starting-->
+<!DOCTYPE html>
+<html lang="en">
+  <!--head open-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background color</title>
+    <link rel="stylesheet" href="/background/css/style.css" />
+  </head>
+  <!--head close-->
+  <!--body start-->
+  <body>
+    <center>
+      <button onclick="changeColor()" id="but">click me</button>
+    </center>
+    <script>
+      var place = 0;
+      function changeColor() {
+        // your color list
+        var colorList = ["red", "green", "blue"];
+        // set the color
+        document.body.style.backgroundColor = colorList[place];
+        place++;
+        // if place is greater than the list size, reset
+        if (place === colorList.length) place = 0;
+      }
+    </script>
+  </body>
+  <!--body close-->
+</html>
+<!--ending-->
